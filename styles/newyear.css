@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
 .banner-happy-new{
     color: #FFF;
 
@@ -66,8 +70,6 @@ justify-content: center;
 align-items: center;
 flex-shrink: 0;
 }
-
-
 .midnight-header{
     color: #FFF;
 font-family: Merriweather;
@@ -133,9 +135,12 @@ text-transform: uppercase;
 .newyear-time-date{
 width: 1300px;
 height: 470px;
-background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
 
+}
+.functio-section{
+    margin-top: 120px;
 }
 .offer-section
 {
@@ -158,9 +163,11 @@ text-transform: capitalize;
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
 font-weight: 400;
-line-height: 32px;
+}
+.offer2024
+{
+    margin-left: 30px;
 }
 .offer-2024head{
     color: #F00;
@@ -169,15 +176,70 @@ font-weight: 700;
 }
 .ellips
 {
-    border-radius: 400px;
+border-radius: 400px;
 border: 15px solid #F00;
 }
 .offer2024-parr{
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
-margin-left: 20px;
+
 }.offer-comig-soon
 {
-    margin-right: 20px;
+    margin-right: 30px;
+}
+.Function{
+    text-align: center;
+    margin-top: 120px;
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+
+}
+.function-holiday{
+    color: #F00;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+}
+.function-head1{
+    color: #070211;
+    text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.functiom-perra{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+}
+.group-75{
+    display: flex;
+}
+.group-44{
+    width: 206px;
+    height: 206.841px;
+    flex-shrink: 0;
+}
+.rectengle-1{
+    width: 429px;
+    height: 433px;
+    float: left 
+    padding:5px;
+}
+.rectengle-2{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    position: relative;
+}
+.group75-part
+{
+  display: inline-block; 
+  position: absolute; 
+  top: 0;
+  left: 0;
 }
