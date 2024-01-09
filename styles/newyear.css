@@ -3,25 +3,18 @@
     margin: 0 auto;
 }
 .banner-happy-new{
-    color: #FFF;
-
+color: #FFF;
 text-align: center;
-font-family: Merriweather;
 font-size: 32px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
+padding-top: 190px;
 }
 .banner-h1
 {
-    color: #FFF;
-
+color: #FFF;
 text-align: center;
-font-family: Merriweather;
 font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px;
+padding-bottom: 165px;
 
 }
 .percentage-of
@@ -360,10 +353,61 @@ height: 24px;
     display: block;
 }
 .horizontal-1st{
-    background: rgba(255, 255, 255, 0.15);
-    width: 1320px;
+ background: rgba(255, 255, 255, 0.15);
+width: 1320px;
 height: 1px;
+margin-top: 25px;
 }
 .icon-container{
+    display: inline;
+}
+.icon-facbook
+{
+width: 64px;
+height: 64px;
+margin-top: 50px;
+padding-top: 298px;
+padding-left: 640px;
+}
+.icon-insta{
+    width: 64px;
+height: 64px;
+margin-top: 48px;
+
+}
+.icon-twit{
+ width: 64px;
+height: 64px;
+margin-top: 48px;
+
+}
+.icon-linke{
+width: 64px;
+height: 64px;
+margin-top: 48px;
+
+}
+.horizontal-2nd
+{
+width: 1320px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+margin-top: 48px;
+}
+.last-container{
     display: flex;
+}
+.last-h4
+{
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+margin-top: 50px;
+padding-right: 800px;
+}
+.Unsubscribe{
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+margin-top: 50px;
 }
